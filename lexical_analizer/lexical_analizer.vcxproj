@@ -18,6 +18,25 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DividerReader.cpp" />
+    <ClCompile Include="KeywordReader.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Parser.cpp" />
+    <ClCompile Include="ProgramReader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DividerReader.h" />
+    <ClInclude Include="KeywordReader.h" />
+    <ClInclude Include="Parser.h" />
+    <ClInclude Include="ProgramReader.h" />
+    <ClInclude Include="Token.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="dividers.txt" />
+    <Text Include="keywords.txt" />
+    <Text Include="program.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,20 +157,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\parser\govno\DividerReader.cpp" />
-    <ClCompile Include="..\..\..\parser\govno\KeywordReader.cpp" />
-    <ClCompile Include="..\..\..\parser\govno\main.cpp" />
-    <ClCompile Include="..\..\..\parser\govno\Parser.cpp" />
-    <ClCompile Include="..\..\..\parser\govno\ProgramReader.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\parser\govno\DividerReader.h" />
-    <ClInclude Include="..\..\..\parser\govno\KeywordReader.h" />
-    <ClInclude Include="..\..\..\parser\govno\Parser.h" />
-    <ClInclude Include="..\..\..\parser\govno\ProgramReader.h" />
-    <ClInclude Include="..\..\..\parser\govno\Token.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

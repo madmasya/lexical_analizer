@@ -15,37 +15,48 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\parser\govno\DividerReader.cpp">
+    <ClCompile Include="ProgramReader.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\parser\govno\KeywordReader.cpp">
+    <ClCompile Include="DividerReader.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\parser\govno\main.cpp">
+    <ClCompile Include="KeywordReader.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\parser\govno\Parser.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\parser\govno\ProgramReader.cpp">
+    <ClCompile Include="Parser.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\parser\govno\Token.h">
+    <ClInclude Include="Parser.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\parser\govno\DividerReader.h">
+    <ClInclude Include="ProgramReader.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\parser\govno\KeywordReader.h">
+    <ClInclude Include="Token.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\parser\govno\Parser.h">
+    <ClInclude Include="DividerReader.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\parser\govno\ProgramReader.h">
+    <ClInclude Include="KeywordReader.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="dividers.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="keywords.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="program.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
   </ItemGroup>
 </Project>
